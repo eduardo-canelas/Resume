@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/hStyles.css">
     <title>Habitz - Habit Tracking App</title>
 </head>
 
@@ -11,7 +12,7 @@
     <!-- Header -->
     <header>
         <h1>Habitz</h1>
-        <a href="../index.html">Back to Resume</a>
+        <button onclick="window.location.href = '../index.html'">Back to Resume</button>
     </header>
     <main>
         <!-- Project Overview -->
@@ -37,9 +38,11 @@
         <!-- Project Images -->
         <section class="project-image" id="project-image">
             <h2>Project Images</h2>
-            <img src="../Assets/Habitz-Images/login.png" alt="Habitz Login Image">
-            <img src="../Assets/Habitz-Images/homePage.png" alt="Habitz Home Page Image">
-            <img src="../Assets/Habitz-Images/dashboard.png" alt="Habitz Dashboard Image">
+            <div class="image-container">
+                <img src="../Assets/Habitz-Images/login.png" alt="Habitz Login Image">
+                <img src="../Assets/Habitz-Images/homePage.png" alt="Habitz Home Page Image">
+                <img src="../Assets/Habitz-Images/dashboard.png" alt="Habitz Dashboard Image">
+            </div>
         </section>
     </main>
 </body>
