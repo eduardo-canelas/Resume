@@ -12,6 +12,7 @@ header {
     padding-top: 20px;
     padding-right: 30px;
     padding-left: 30px;
+    flex-wrap: wrap;
 }
 
 main {
@@ -27,6 +28,10 @@ main {
     width: 500px;
     height: 500px;
     margin: 5px;
+    animation-name: popUp;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
 }
 
 .image-container {
